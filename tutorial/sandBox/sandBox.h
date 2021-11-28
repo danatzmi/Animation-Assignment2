@@ -11,6 +11,8 @@ public:
 	~SandBox();
 	void Init(const std::string& config);
 	void InitObjectData(ObjectData& od, Eigen::MatrixXd& V, Eigen::MatrixXi& F);
+	void ReInitObjectData(ObjectData& od);
+	void ClearObjectData(ObjectData& od);
 	void Simplify();
 	void Simplify(int num_to_collapse, ObjectData& od);
 

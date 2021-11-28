@@ -26,9 +26,9 @@ void ComputePriorityQueue(ObjectData& od)
 
         Eigen::Matrix4d* _Q = new Eigen::Matrix4d(*Q1 + *Q2);
 
-        p = ComputePlace(od, *_Q, v1, v2); //0.5 * (V.row(E(e, 0)) + V.row(E(e, 1))); //
+        p = ComputePlace(od, *_Q, v1, v2);
 
-        cost = ComputeCost(p, *_Q); //(V.row(E(e, 0)) - V.row(E(e, 1))).norm(); //
+        cost = ComputeCost(p, *_Q);
     };
 #endif
 
@@ -112,7 +112,6 @@ Eigen::RowVectorXd ComputePlace(ObjectData& od, Eigen::Matrix4d& _Q, int v1, int
     Eigen::RowVectorXd place(3);
     Eigen::RowVector3d _v1 = od.V->row(v1);
     Eigen::RowVector3d _v2 = od.V->row(v2);
-    //return (_v1 + _v2) / 2;
     Eigen::Matrix4d Qtmp(_Q);
     Qtmp(3, 0) = 0;
     Qtmp(3, 1) = 0;
@@ -121,6 +120,7 @@ Eigen::RowVectorXd ComputePlace(ObjectData& od, Eigen::Matrix4d& _Q, int v1, int
     if (Qtmp.determinant() != 0) // Matrix is invertible
     {
         Eigen::Matrix4d _place = Qtmp.inverse(); // *Eigen::Vector4d{ 0, 0, 0, 1 };
+        // Same as Qtmp.inverse() * Eigen::Vector4d{ 0, 0, 0, 1 };
         place << _place(0, 3), _place(1, 3), _place(2, 3);
     }
     else // Matrix is not invertible - we take midpoint
@@ -185,17 +185,17 @@ bool collapse_edge(ObjectData& od)
 
         Eigen::Matrix4d* _Q = new Eigen::Matrix4d(*Q1 + *Q2);
 
-        p = ComputePlace(od, *_Q, v1, v2); //0.5 * (V.row(E(e, 0)) + V.row(E(e, 1))); //
+        p = ComputePlace(od, *_Q, v1, v2);
 
-        cost = ComputeCost(p, *_Q); //(V.row(E(e, 0)) - V.row(E(e, 1))).norm(); //
+        cost = ComputeCost(p, *_Q);
     };
 #endif
 
+    // Save data of next edge to be collapsed, for printing
     int e = od.Q->begin()->second;
     double cost = od.Q->begin()->first;
     Eigen::RowVector3d p = od.C->row(e);
 
-#if 1
     if (igl::collapse_edge(cost_and_placement,
         *od.V,
         *od.F,
@@ -214,35 +214,5 @@ bool collapse_edge(ObjectData& od)
         return true;
     }
     return false;
-#endif
 
-}
-
-void update_priority_queue(ObjectData& simplifyDataObject)
-{
-    PriorityQueue::iterator it;
-    PriorityQueue tmp;
-    PriorityQueue new_priority_queue;
-    for (it = simplifyDataObject.Q->begin(); it != simplifyDataObject.Q->end(); ++it) {
-        int e = it->second;
-        if (it->first == std::numeric_limits<double>::infinity()) {
-            tmp.insert(std::pair<double, int>(it->first, e));
-            continue;
-        }
-        int v1 = (*simplifyDataObject.E)(e, 0);
-        int v2 = (*simplifyDataObject.E)(e, 1);
-        Eigen::Matrix4d* q_matrix_v1 = simplifyDataObject.QMATRICES[v1];
-        Eigen::Matrix4d* q_matrix_v2 = simplifyDataObject.QMATRICES[v2];
-        Eigen::Matrix4d* qq = new Eigen::Matrix4d(*q_matrix_v1 + *q_matrix_v2);
-        Eigen::RowVectorXd p = ComputePlace(simplifyDataObject, *qq, v1, v2);
-        simplifyDataObject.C->row(e) = p;
-
-        double cost = ComputeCost(p, *qq);
-        tmp.insert(std::pair<double, int>(cost, e));
-    }
-    delete simplifyDataObject.Q;
-    simplifyDataObject.Q = new PriorityQueue();
-    for (it = tmp.begin(); it != tmp.end(); ++it) {
-        simplifyDataObject.Q->insert(std::pair<double, int>(it->first, it->second));
-    }
 }

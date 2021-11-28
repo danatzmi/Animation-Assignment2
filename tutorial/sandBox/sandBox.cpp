@@ -84,6 +84,38 @@ void SandBox::InitObjectData(ObjectData& od, Eigen::MatrixXd& V, Eigen::MatrixXi
     ComputePriorityQueue(od);
 }
 
+void SandBox::ReInitObjectData(ObjectData& od)
+{
+    Eigen::MatrixXd V = *od.V; 
+    Eigen::MatrixXi F = *od.F;
+
+    ObjectData* odToRemove = objectsData->at(selected_data_index);
+    ClearObjectData(*odToRemove);
+    delete odToRemove;
+    ObjectData* odToAdd = new ObjectData();
+    InitObjectData(*odToAdd, V, F);
+    objectsData->at(selected_data_index) = odToAdd;
+}
+
+void SandBox::ClearObjectData(ObjectData& od)
+{
+    delete od.V;
+    delete od.F;
+    delete od.EMAP;
+    delete od.E;
+    delete od.EF;
+    delete od.EI;
+    delete od.Q;
+    delete od.C;
+    delete od.F_NORMALS;
+
+    for (Eigen::Matrix4d* m : od.QMATRICES)
+    {
+        delete m;
+    }
+    od.QMATRICES.clear();
+}
+
 void SandBox::Simplify()
 {
     ObjectData* objectToSimplify = objectsData->at(selected_data_index);
@@ -105,9 +137,6 @@ void SandBox::Simplify(int num_to_collapse, ObjectData& od)
             }
             something_collapsed = true;
             od.num_collapsed++;
-            ComputeNormals(od, data());
-            ComputeQMatrices(od);
-            ComputePriorityQueue(od);
         }
          
         if (something_collapsed)
@@ -116,7 +145,7 @@ void SandBox::Simplify(int num_to_collapse, ObjectData& od)
             data().set_mesh(*od.V, *od.F);
             data().set_face_based(true);
             data().dirty = 157; //this line prevents texture coordinates
-            InitObjectData(od, *od.V, *od.F);
+            ReInitObjectData(od);
         }
     }
 }

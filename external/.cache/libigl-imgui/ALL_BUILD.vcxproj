@@ -22,8 +22,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{96A650CC-C753-3346-8B6A-849C3D964CBD}</ProjectGuid>
-    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <ProjectGuid>{5E5337C4-BBDB-33A0-BB27-9C41D64397D0}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
     <ProjectName>ALL_BUILD</ProjectName>
@@ -105,10 +105,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Dev\EngineForAnimationCourse\external\.cache\libigl-imgui\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Dev/EngineForAnimationCourse/external/.cache/libigl-imgui/CMakeLists.txt</Message>
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Dev/EngineForAnimationCourse/external/.cache/libigl-imgui -BC:/Dev/EngineForAnimationCourse/external/.cache/libigl-imgui --check-stamp-file C:/Dev/EngineForAnimationCourse/external/.cache/libigl-imgui/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui -BC:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui --check-stamp-file C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -116,12 +117,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Dev\EngineForAnimationCourse\external\.cache\libigl-imgui\CMakeFiles\3.15.0-rc4\CMakeSystem.cmake;C:\Dev\EngineForAnimationCourse\external\.cache\libigl-imgui\libigl-imgui-download-prefix\tmp\libigl-imgui-download-cfgcmd.txt.in;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\CMakeSystem.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\ExternalProject.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\FindGit.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\RepositoryInfo.txt.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Dev\EngineForAnimationCourse\external\.cache\libigl-imgui\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\ExternalProject-gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\RepositoryInfo.txt.in;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\3.21.4\CMakeSystem.cmake;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\tmp\libigl-imgui-download-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Dev/EngineForAnimationCourse/external/.cache/libigl-imgui/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Dev/EngineForAnimationCourse/external/.cache/libigl-imgui -BC:/Dev/EngineForAnimationCourse/external/.cache/libigl-imgui --check-stamp-file C:/Dev/EngineForAnimationCourse/external/.cache/libigl-imgui/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui -BC:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui --check-stamp-file C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -129,12 +130,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Dev\EngineForAnimationCourse\external\.cache\libigl-imgui\CMakeFiles\3.15.0-rc4\CMakeSystem.cmake;C:\Dev\EngineForAnimationCourse\external\.cache\libigl-imgui\libigl-imgui-download-prefix\tmp\libigl-imgui-download-cfgcmd.txt.in;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\CMakeSystem.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\ExternalProject.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\FindGit.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\RepositoryInfo.txt.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Dev\EngineForAnimationCourse\external\.cache\libigl-imgui\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\ExternalProject-gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\RepositoryInfo.txt.in;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\3.21.4\CMakeSystem.cmake;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\tmp\libigl-imgui-download-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Dev/EngineForAnimationCourse/external/.cache/libigl-imgui/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Dev/EngineForAnimationCourse/external/.cache/libigl-imgui -BC:/Dev/EngineForAnimationCourse/external/.cache/libigl-imgui --check-stamp-file C:/Dev/EngineForAnimationCourse/external/.cache/libigl-imgui/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui -BC:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui --check-stamp-file C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -142,12 +143,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Dev\EngineForAnimationCourse\external\.cache\libigl-imgui\CMakeFiles\3.15.0-rc4\CMakeSystem.cmake;C:\Dev\EngineForAnimationCourse\external\.cache\libigl-imgui\libigl-imgui-download-prefix\tmp\libigl-imgui-download-cfgcmd.txt.in;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\CMakeSystem.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\ExternalProject.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\FindGit.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\RepositoryInfo.txt.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Dev\EngineForAnimationCourse\external\.cache\libigl-imgui\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\ExternalProject-gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\RepositoryInfo.txt.in;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\3.21.4\CMakeSystem.cmake;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\tmp\libigl-imgui-download-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Dev/EngineForAnimationCourse/external/.cache/libigl-imgui/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Dev/EngineForAnimationCourse/external/.cache/libigl-imgui -BC:/Dev/EngineForAnimationCourse/external/.cache/libigl-imgui --check-stamp-file C:/Dev/EngineForAnimationCourse/external/.cache/libigl-imgui/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui -BC:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui --check-stamp-file C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -155,22 +156,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Dev\EngineForAnimationCourse\external\.cache\libigl-imgui\CMakeFiles\3.15.0-rc4\CMakeSystem.cmake;C:\Dev\EngineForAnimationCourse\external\.cache\libigl-imgui\libigl-imgui-download-prefix\tmp\libigl-imgui-download-cfgcmd.txt.in;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\CMakeSystem.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\ExternalProject.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\FindGit.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.15\Modules\RepositoryInfo.txt.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Dev\EngineForAnimationCourse\external\.cache\libigl-imgui\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\ExternalProject-gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\RepositoryInfo.txt.in;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\3.21.4\CMakeSystem.cmake;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\tmp\libigl-imgui-download-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Dev\EngineForAnimationCourse\external\.cache\libigl-imgui\ZERO_CHECK.vcxproj">
-      <Project>{20754A52-D25E-3DB8-B453-7F207141C20E}</Project>
+    <ProjectReference Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\ZERO_CHECK.vcxproj">
+      <Project>{6F6C5AC1-0D19-37FD-9AB1-43BFF4CE2FCD}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Dev\EngineForAnimationCourse\external\.cache\libigl-imgui\libigl-imgui-download.vcxproj">
-      <Project>{234E845C-3986-3AE0-AFFC-632A8ADCEA99}</Project>
+    <ProjectReference Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download.vcxproj">
+      <Project>{F425212B-FEAE-3558-A620-D0CDD267A95D}</Project>
       <Name>libigl-imgui-download</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

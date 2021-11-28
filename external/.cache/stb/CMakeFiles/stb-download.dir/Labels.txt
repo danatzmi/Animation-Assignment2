@@ -1,14 +1,14 @@
 # Target labels
  stb-download
 # Source files and their labels
-C:/Dev/EngineForAnimationCourse/external/.cache/stb/CMakeFiles/stb-download
-C:/Dev/EngineForAnimationCourse/external/.cache/stb/CMakeFiles/aba08456388b92e938542ae9570660b8/stb-download.rule
-C:/Dev/EngineForAnimationCourse/external/.cache/stb/CMakeFiles/e0199abd4f5142946dc0db8ddab10b26/stb-download-complete.rule
-C:/Dev/EngineForAnimationCourse/external/.cache/stb/CMakeFiles/50d1f4993b968176e85c8bee94448529/stb-download-install.rule
-C:/Dev/EngineForAnimationCourse/external/.cache/stb/CMakeFiles/50d1f4993b968176e85c8bee94448529/stb-download-mkdir.rule
-C:/Dev/EngineForAnimationCourse/external/.cache/stb/CMakeFiles/50d1f4993b968176e85c8bee94448529/stb-download-download.rule
-C:/Dev/EngineForAnimationCourse/external/.cache/stb/CMakeFiles/50d1f4993b968176e85c8bee94448529/stb-download-update.rule
-C:/Dev/EngineForAnimationCourse/external/.cache/stb/CMakeFiles/50d1f4993b968176e85c8bee94448529/stb-download-patch.rule
-C:/Dev/EngineForAnimationCourse/external/.cache/stb/CMakeFiles/50d1f4993b968176e85c8bee94448529/stb-download-configure.rule
-C:/Dev/EngineForAnimationCourse/external/.cache/stb/CMakeFiles/50d1f4993b968176e85c8bee94448529/stb-download-build.rule
-C:/Dev/EngineForAnimationCourse/external/.cache/stb/CMakeFiles/50d1f4993b968176e85c8bee94448529/stb-download-test.rule
+C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/stb/CMakeFiles/stb-download
+C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/stb/CMakeFiles/35f9626d2d5c90f076d112f4380267a9/stb-download.rule
+C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/stb/CMakeFiles/78e0a999beded5290458f812ad5557ad/stb-download-complete.rule
+C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/stb/CMakeFiles/24a2b0da2a22967e5c960c0147b198d6/stb-download-build.rule
+C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/stb/CMakeFiles/24a2b0da2a22967e5c960c0147b198d6/stb-download-configure.rule
+C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/stb/CMakeFiles/24a2b0da2a22967e5c960c0147b198d6/stb-download-download.rule
+C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/stb/CMakeFiles/24a2b0da2a22967e5c960c0147b198d6/stb-download-install.rule
+C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/stb/CMakeFiles/24a2b0da2a22967e5c960c0147b198d6/stb-download-mkdir.rule
+C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/stb/CMakeFiles/24a2b0da2a22967e5c960c0147b198d6/stb-download-patch.rule
+C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/stb/CMakeFiles/24a2b0da2a22967e5c960c0147b198d6/stb-download-test.rule
+C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/stb/CMakeFiles/24a2b0da2a22967e5c960c0147b198d6/stb-download-update.rule

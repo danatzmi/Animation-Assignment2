@@ -1,14 +1,14 @@
 # Target labels
  glfw-download
 # Source files and their labels
-C:/Dev/EngineForAnimationCourse/external/.cache/glfw/CMakeFiles/glfw-download
-C:/Dev/EngineForAnimationCourse/external/.cache/glfw/CMakeFiles/348a56fa66aa08285112e5836da14efb/glfw-download.rule
-C:/Dev/EngineForAnimationCourse/external/.cache/glfw/CMakeFiles/04854dc552b1d756b34806e04cfe8c47/glfw-download-complete.rule
-C:/Dev/EngineForAnimationCourse/external/.cache/glfw/CMakeFiles/e78e77f0bd680b46414144f1ef510be5/glfw-download-install.rule
-C:/Dev/EngineForAnimationCourse/external/.cache/glfw/CMakeFiles/e78e77f0bd680b46414144f1ef510be5/glfw-download-mkdir.rule
-C:/Dev/EngineForAnimationCourse/external/.cache/glfw/CMakeFiles/e78e77f0bd680b46414144f1ef510be5/glfw-download-download.rule
-C:/Dev/EngineForAnimationCourse/external/.cache/glfw/CMakeFiles/e78e77f0bd680b46414144f1ef510be5/glfw-download-update.rule
-C:/Dev/EngineForAnimationCourse/external/.cache/glfw/CMakeFiles/e78e77f0bd680b46414144f1ef510be5/glfw-download-patch.rule
-C:/Dev/EngineForAnimationCourse/external/.cache/glfw/CMakeFiles/e78e77f0bd680b46414144f1ef510be5/glfw-download-configure.rule
-C:/Dev/EngineForAnimationCourse/external/.cache/glfw/CMakeFiles/e78e77f0bd680b46414144f1ef510be5/glfw-download-build.rule
-C:/Dev/EngineForAnimationCourse/external/.cache/glfw/CMakeFiles/e78e77f0bd680b46414144f1ef510be5/glfw-download-test.rule
+C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/glfw/CMakeFiles/glfw-download
+C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/glfw/CMakeFiles/e21332ab06b9b864a733d1ce52515564/glfw-download.rule
+C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/glfw/CMakeFiles/403a81f95037e55b5978b3c2e0df4e2c/glfw-download-complete.rule
+C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/glfw/CMakeFiles/df7ba96e11259d4234a891d885811b0b/glfw-download-build.rule
+C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/glfw/CMakeFiles/df7ba96e11259d4234a891d885811b0b/glfw-download-configure.rule
+C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/glfw/CMakeFiles/df7ba96e11259d4234a891d885811b0b/glfw-download-download.rule
+C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/glfw/CMakeFiles/df7ba96e11259d4234a891d885811b0b/glfw-download-install.rule
+C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/glfw/CMakeFiles/df7ba96e11259d4234a891d885811b0b/glfw-download-mkdir.rule
+C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/glfw/CMakeFiles/df7ba96e11259d4234a891d885811b0b/glfw-download-patch.rule
+C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/glfw/CMakeFiles/df7ba96e11259d4234a891d885811b0b/glfw-download-test.rule
+C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/glfw/CMakeFiles/df7ba96e11259d4234a891d885811b0b/glfw-download-update.rule

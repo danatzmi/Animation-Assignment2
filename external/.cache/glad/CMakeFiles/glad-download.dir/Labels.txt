@@ -1,14 +1,14 @@
 # Target labels
  glad-download
 # Source files and their labels
-C:/Dev/EngineForAnimationCourse/external/.cache/glad/CMakeFiles/glad-download
-C:/Dev/EngineForAnimationCourse/external/.cache/glad/CMakeFiles/472d8ab8952453840fd48fc1ec6f25eb/glad-download.rule
-C:/Dev/EngineForAnimationCourse/external/.cache/glad/CMakeFiles/1e95895e67ddacf60b58d4fb984559ac/glad-download-complete.rule
-C:/Dev/EngineForAnimationCourse/external/.cache/glad/CMakeFiles/a52847fcf3552b5d1106c42f39cec573/glad-download-install.rule
-C:/Dev/EngineForAnimationCourse/external/.cache/glad/CMakeFiles/a52847fcf3552b5d1106c42f39cec573/glad-download-mkdir.rule
-C:/Dev/EngineForAnimationCourse/external/.cache/glad/CMakeFiles/a52847fcf3552b5d1106c42f39cec573/glad-download-download.rule
-C:/Dev/EngineForAnimationCourse/external/.cache/glad/CMakeFiles/a52847fcf3552b5d1106c42f39cec573/glad-download-update.rule
-C:/Dev/EngineForAnimationCourse/external/.cache/glad/CMakeFiles/a52847fcf3552b5d1106c42f39cec573/glad-download-patch.rule
-C:/Dev/EngineForAnimationCourse/external/.cache/glad/CMakeFiles/a52847fcf3552b5d1106c42f39cec573/glad-download-configure.rule
-C:/Dev/EngineForAnimationCourse/external/.cache/glad/CMakeFiles/a52847fcf3552b5d1106c42f39cec573/glad-download-build.rule
-C:/Dev/EngineForAnimationCourse/external/.cache/glad/CMakeFiles/a52847fcf3552b5d1106c42f39cec573/glad-download-test.rule
+C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/glad/CMakeFiles/glad-download
+C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/glad/CMakeFiles/32b3bd334d7865a4abb5c846e76ce74d/glad-download.rule
+C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/glad/CMakeFiles/33974caf5c446fc1a87f36cd39c99408/glad-download-complete.rule
+C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/glad/CMakeFiles/45b1c53585520ad74d250513fb9dfd98/glad-download-build.rule
+C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/glad/CMakeFiles/45b1c53585520ad74d250513fb9dfd98/glad-download-configure.rule
+C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/glad/CMakeFiles/45b1c53585520ad74d250513fb9dfd98/glad-download-download.rule
+C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/glad/CMakeFiles/45b1c53585520ad74d250513fb9dfd98/glad-download-install.rule
+C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/glad/CMakeFiles/45b1c53585520ad74d250513fb9dfd98/glad-download-mkdir.rule
+C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/glad/CMakeFiles/45b1c53585520ad74d250513fb9dfd98/glad-download-patch.rule
+C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/glad/CMakeFiles/45b1c53585520ad74d250513fb9dfd98/glad-download-test.rule
+C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/glad/CMakeFiles/45b1c53585520ad74d250513fb9dfd98/glad-download-update.rule

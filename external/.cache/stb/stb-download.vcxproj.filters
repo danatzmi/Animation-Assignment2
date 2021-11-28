@@ -1,44 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Dev\EngineForAnimationCourse\external\.cache\stb\CMakeFiles\50d1f4993b968176e85c8bee94448529\stb-download-mkdir.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\stb\CMakeFiles\24a2b0da2a22967e5c960c0147b198d6\stb-download-mkdir.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Dev\EngineForAnimationCourse\external\.cache\stb\CMakeFiles\50d1f4993b968176e85c8bee94448529\stb-download-download.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\stb\CMakeFiles\24a2b0da2a22967e5c960c0147b198d6\stb-download-download.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Dev\EngineForAnimationCourse\external\.cache\stb\CMakeFiles\50d1f4993b968176e85c8bee94448529\stb-download-update.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\stb\CMakeFiles\24a2b0da2a22967e5c960c0147b198d6\stb-download-update.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Dev\EngineForAnimationCourse\external\.cache\stb\CMakeFiles\50d1f4993b968176e85c8bee94448529\stb-download-patch.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\stb\CMakeFiles\24a2b0da2a22967e5c960c0147b198d6\stb-download-patch.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Dev\EngineForAnimationCourse\external\.cache\stb\CMakeFiles\50d1f4993b968176e85c8bee94448529\stb-download-configure.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\stb\CMakeFiles\24a2b0da2a22967e5c960c0147b198d6\stb-download-configure.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Dev\EngineForAnimationCourse\external\.cache\stb\CMakeFiles\50d1f4993b968176e85c8bee94448529\stb-download-build.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\stb\CMakeFiles\24a2b0da2a22967e5c960c0147b198d6\stb-download-build.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Dev\EngineForAnimationCourse\external\.cache\stb\CMakeFiles\50d1f4993b968176e85c8bee94448529\stb-download-install.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\stb\CMakeFiles\24a2b0da2a22967e5c960c0147b198d6\stb-download-install.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Dev\EngineForAnimationCourse\external\.cache\stb\CMakeFiles\50d1f4993b968176e85c8bee94448529\stb-download-test.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\stb\CMakeFiles\24a2b0da2a22967e5c960c0147b198d6\stb-download-test.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Dev\EngineForAnimationCourse\external\.cache\stb\CMakeFiles\e0199abd4f5142946dc0db8ddab10b26\stb-download-complete.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\stb\CMakeFiles\78e0a999beded5290458f812ad5557ad\stb-download-complete.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Dev\EngineForAnimationCourse\external\.cache\stb\CMakeFiles\aba08456388b92e938542ae9570660b8\stb-download.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\stb\CMakeFiles\35f9626d2d5c90f076d112f4380267a9\stb-download.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Dev\EngineForAnimationCourse\external\.cache\stb\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\stb\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Dev\EngineForAnimationCourse\external\.cache\stb\CMakeFiles\stb-download" />
+    <None Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\stb\CMakeFiles\stb-download" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{856026E9-594E-3E1E-AB3C-EA96EA33491A}</UniqueIdentifier>
+      <UniqueIdentifier>{9F9CA8B8-596E-3802-8FBA-B84D43EC3171}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
