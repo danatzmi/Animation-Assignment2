@@ -89,9 +89,12 @@ void SandBox::ReInitObjectData(ObjectData& od)
     Eigen::MatrixXd V = *od.V; 
     Eigen::MatrixXi F = *od.F;
 
+    // Remove old object data
     ObjectData* odToRemove = objectsData->at(selected_data_index);
     ClearObjectData(*odToRemove);
     delete odToRemove;
+
+    // Add new object data after collapsning edges 
     ObjectData* odToAdd = new ObjectData();
     InitObjectData(*odToAdd, V, F);
     objectsData->at(selected_data_index) = odToAdd;
@@ -109,10 +112,7 @@ void SandBox::ClearObjectData(ObjectData& od)
     delete od.C;
     delete od.F_NORMALS;
 
-    for (Eigen::Matrix4d* m : od.QMATRICES)
-    {
-        delete m;
-    }
+    std::for_each(od.QMATRICES.begin(), od.QMATRICES.end(), [](Eigen::Matrix4d* m) -> void { delete m; });
     od.QMATRICES.clear();
 }
 
