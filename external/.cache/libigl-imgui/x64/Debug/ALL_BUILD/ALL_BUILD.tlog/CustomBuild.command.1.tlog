@@ -1,6 +1,6 @@
-^C:\USERS\DANAT\DESKTOP\CS\ANIMATION\ASSIGNMENT1\EXTERNAL\.CACHE\LIBIGL-IMGUI\CMAKELISTS.TXT
+^C:\USERS\DANAT\DESKTOP\CS\ANIMATION\ASSIGNMENT2\ANIMATION-ASSIGNMENT2\EXTERNAL\.CACHE\LIBIGL-IMGUI\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui -BC:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui --check-stamp-file C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui -BC:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui --check-stamp-file C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

@@ -1,0 +1,162 @@
+^C:\USERS\DANAT\DESKTOP\CS\ANIMATION\ASSIGNMENT2\ANIMATION-ASSIGNMENT2\EXTERNAL\.CACHE\LIBIGL-IMGUI\CMAKEFILES\0C67ED7D3989F5AE83DACCC7AE914398\LIBIGL-IMGUI-DOWNLOAD-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/cmake/../external/libigl-imgui
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/build/libigl-imgui-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/Debug/libigl-imgui-download-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DANAT\DESKTOP\CS\ANIMATION\ASSIGNMENT2\ANIMATION-ASSIGNMENT2\EXTERNAL\.CACHE\LIBIGL-IMGUI\CMAKEFILES\0C67ED7D3989F5AE83DACCC7AE914398\LIBIGL-IMGUI-DOWNLOAD-DOWNLOAD.RULE
+setlocal
+cd C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/tmp/libigl-imgui-download-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/Debug/libigl-imgui-download-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DANAT\DESKTOP\CS\ANIMATION\ASSIGNMENT2\ANIMATION-ASSIGNMENT2\EXTERNAL\.CACHE\LIBIGL-IMGUI\CMAKEFILES\0C67ED7D3989F5AE83DACCC7AE914398\LIBIGL-IMGUI-DOWNLOAD-UPDATE.RULE
+setlocal
+cd C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\libigl-imgui
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/tmp/libigl-imgui-download-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DANAT\DESKTOP\CS\ANIMATION\ASSIGNMENT2\ANIMATION-ASSIGNMENT2\EXTERNAL\.CACHE\LIBIGL-IMGUI\CMAKEFILES\0C67ED7D3989F5AE83DACCC7AE914398\LIBIGL-IMGUI-DOWNLOAD-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/Debug/libigl-imgui-download-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DANAT\DESKTOP\CS\ANIMATION\ASSIGNMENT2\ANIMATION-ASSIGNMENT2\EXTERNAL\.CACHE\LIBIGL-IMGUI\CMAKEFILES\0C67ED7D3989F5AE83DACCC7AE914398\LIBIGL-IMGUI-DOWNLOAD-CONFIGURE.RULE
+setlocal
+cd C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\build\libigl-imgui-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/Debug/libigl-imgui-download-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DANAT\DESKTOP\CS\ANIMATION\ASSIGNMENT2\ANIMATION-ASSIGNMENT2\EXTERNAL\.CACHE\LIBIGL-IMGUI\CMAKEFILES\0C67ED7D3989F5AE83DACCC7AE914398\LIBIGL-IMGUI-DOWNLOAD-BUILD.RULE
+setlocal
+cd C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\build\libigl-imgui-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/Debug/libigl-imgui-download-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DANAT\DESKTOP\CS\ANIMATION\ASSIGNMENT2\ANIMATION-ASSIGNMENT2\EXTERNAL\.CACHE\LIBIGL-IMGUI\CMAKEFILES\0C67ED7D3989F5AE83DACCC7AE914398\LIBIGL-IMGUI-DOWNLOAD-INSTALL.RULE
+setlocal
+cd C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\build\libigl-imgui-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/Debug/libigl-imgui-download-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DANAT\DESKTOP\CS\ANIMATION\ASSIGNMENT2\ANIMATION-ASSIGNMENT2\EXTERNAL\.CACHE\LIBIGL-IMGUI\CMAKEFILES\0C67ED7D3989F5AE83DACCC7AE914398\LIBIGL-IMGUI-DOWNLOAD-TEST.RULE
+setlocal
+cd C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\build\libigl-imgui-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/Debug/libigl-imgui-download-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DANAT\DESKTOP\CS\ANIMATION\ASSIGNMENT2\ANIMATION-ASSIGNMENT2\EXTERNAL\.CACHE\LIBIGL-IMGUI\CMAKEFILES\7CDC32D34495A846053509A0BFEC46BA\LIBIGL-IMGUI-DOWNLOAD-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/CMakeFiles/Debug/libigl-imgui-download-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/Debug/libigl-imgui-download-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DANAT\DESKTOP\CS\ANIMATION\ASSIGNMENT2\ANIMATION-ASSIGNMENT2\EXTERNAL\.CACHE\LIBIGL-IMGUI\CMAKEFILES\B1CDF35382A2FA9A10364604FAAC3A3F\LIBIGL-IMGUI-DOWNLOAD.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DANAT\DESKTOP\CS\ANIMATION\ASSIGNMENT2\ANIMATION-ASSIGNMENT2\EXTERNAL\.CACHE\LIBIGL-IMGUI\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui -BC:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui --check-stamp-file C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

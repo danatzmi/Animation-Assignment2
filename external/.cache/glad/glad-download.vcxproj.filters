@@ -1,44 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\glad\CMakeFiles\45b1c53585520ad74d250513fb9dfd98\glad-download-mkdir.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\glad\CMakeFiles\709196168cc1477bcc6de52fc3d5df31\glad-download-mkdir.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\glad\CMakeFiles\45b1c53585520ad74d250513fb9dfd98\glad-download-download.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\glad\CMakeFiles\709196168cc1477bcc6de52fc3d5df31\glad-download-download.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\glad\CMakeFiles\45b1c53585520ad74d250513fb9dfd98\glad-download-update.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\glad\CMakeFiles\709196168cc1477bcc6de52fc3d5df31\glad-download-update.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\glad\CMakeFiles\45b1c53585520ad74d250513fb9dfd98\glad-download-patch.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\glad\CMakeFiles\709196168cc1477bcc6de52fc3d5df31\glad-download-patch.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\glad\CMakeFiles\45b1c53585520ad74d250513fb9dfd98\glad-download-configure.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\glad\CMakeFiles\709196168cc1477bcc6de52fc3d5df31\glad-download-configure.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\glad\CMakeFiles\45b1c53585520ad74d250513fb9dfd98\glad-download-build.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\glad\CMakeFiles\709196168cc1477bcc6de52fc3d5df31\glad-download-build.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\glad\CMakeFiles\45b1c53585520ad74d250513fb9dfd98\glad-download-install.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\glad\CMakeFiles\709196168cc1477bcc6de52fc3d5df31\glad-download-install.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\glad\CMakeFiles\45b1c53585520ad74d250513fb9dfd98\glad-download-test.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\glad\CMakeFiles\709196168cc1477bcc6de52fc3d5df31\glad-download-test.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\glad\CMakeFiles\33974caf5c446fc1a87f36cd39c99408\glad-download-complete.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\glad\CMakeFiles\322b0a7c84d92a884a823453c6330313\glad-download-complete.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\glad\CMakeFiles\32b3bd334d7865a4abb5c846e76ce74d\glad-download.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\glad\CMakeFiles\d34a63be5be9c3f2d02770a2a09467e1\glad-download.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\glad\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\glad\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\glad\CMakeFiles\glad-download" />
+    <None Include="C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\glad\CMakeFiles\glad-download" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{467596B1-462F-3315-91DE-4A7435F8D122}</UniqueIdentifier>
+      <UniqueIdentifier>{2E5C522D-8490-39F3-9104-1621E352E568}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

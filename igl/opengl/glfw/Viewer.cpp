@@ -180,7 +180,7 @@ namespace glfw
     //for (unsigned int i = 0; i<plugins.size(); ++i)
     //  if (plugins[i]->post_load())
     //    return true;
-
+    
     return true;
   }
 

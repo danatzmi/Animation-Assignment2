@@ -1,20 +1,20 @@
-^C:\USERS\DANAT\DESKTOP\CS\ANIMATION\ASSIGNMENT1\EXTERNAL\.CACHE\IMGUI\CMAKEFILES\D11A73579EBCD875D820E2C35ECDC569\IMGUI-DOWNLOAD-MKDIR.RULE
+^C:\USERS\DANAT\DESKTOP\CS\ANIMATION\ASSIGNMENT2\ANIMATION-ASSIGNMENT2\EXTERNAL\.CACHE\IMGUI\CMAKEFILES\EBCB5544800EE7AA279E401DC85F218B\IMGUI-DOWNLOAD-MKDIR.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/cmake/../external/imgui
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/cmake/../external/imgui
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/build/imgui-build
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/build/imgui-build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/imgui/imgui-download-prefix
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/imgui/imgui-download-prefix
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/imgui/imgui-download-prefix/tmp
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/imgui/imgui-download-prefix/tmp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/imgui/imgui-download-prefix/src/imgui-download-stamp/Debug
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/imgui/imgui-download-prefix/src/imgui-download-stamp/Debug
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/imgui/imgui-download-prefix/src
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/imgui/imgui-download-prefix/src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/imgui/imgui-download-prefix/src/imgui-download-stamp
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/imgui/imgui-download-prefix/src/imgui-download-stamp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/imgui/imgui-download-prefix/src/imgui-download-stamp/Debug/imgui-download-mkdir
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/imgui/imgui-download-prefix/src/imgui-download-stamp/Debug/imgui-download-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -22,15 +22,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\DANAT\DESKTOP\CS\ANIMATION\ASSIGNMENT1\EXTERNAL\.CACHE\IMGUI\CMAKEFILES\D11A73579EBCD875D820E2C35ECDC569\IMGUI-DOWNLOAD-DOWNLOAD.RULE
+^C:\USERS\DANAT\DESKTOP\CS\ANIMATION\ASSIGNMENT2\ANIMATION-ASSIGNMENT2\EXTERNAL\.CACHE\IMGUI\CMAKEFILES\EBCB5544800EE7AA279E401DC85F218B\IMGUI-DOWNLOAD-DOWNLOAD.RULE
 setlocal
-cd C:\Users\danat\Desktop\CS\Animation\Assignment1\external
+cd C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/imgui/imgui-download-prefix/tmp/imgui-download-gitclone.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/imgui/imgui-download-prefix/tmp/imgui-download-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/imgui/imgui-download-prefix/src/imgui-download-stamp/Debug/imgui-download-download
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/imgui/imgui-download-prefix/src/imgui-download-stamp/Debug/imgui-download-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -38,13 +38,13 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\DANAT\DESKTOP\CS\ANIMATION\ASSIGNMENT1\EXTERNAL\.CACHE\IMGUI\CMAKEFILES\D11A73579EBCD875D820E2C35ECDC569\IMGUI-DOWNLOAD-UPDATE.RULE
+^C:\USERS\DANAT\DESKTOP\CS\ANIMATION\ASSIGNMENT2\ANIMATION-ASSIGNMENT2\EXTERNAL\.CACHE\IMGUI\CMAKEFILES\EBCB5544800EE7AA279E401DC85F218B\IMGUI-DOWNLOAD-UPDATE.RULE
 setlocal
-cd C:\Users\danat\Desktop\CS\Animation\Assignment1\external\imgui
+cd C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\imgui
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/imgui/imgui-download-prefix/tmp/imgui-download-gitupdate.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/imgui/imgui-download-prefix/tmp/imgui-download-gitupdate.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -52,11 +52,11 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\DANAT\DESKTOP\CS\ANIMATION\ASSIGNMENT1\EXTERNAL\.CACHE\IMGUI\CMAKEFILES\D11A73579EBCD875D820E2C35ECDC569\IMGUI-DOWNLOAD-PATCH.RULE
+^C:\USERS\DANAT\DESKTOP\CS\ANIMATION\ASSIGNMENT2\ANIMATION-ASSIGNMENT2\EXTERNAL\.CACHE\IMGUI\CMAKEFILES\EBCB5544800EE7AA279E401DC85F218B\IMGUI-DOWNLOAD-PATCH.RULE
 setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/imgui/imgui-download-prefix/src/imgui-download-stamp/Debug/imgui-download-patch
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/imgui/imgui-download-prefix/src/imgui-download-stamp/Debug/imgui-download-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -64,31 +64,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\DANAT\DESKTOP\CS\ANIMATION\ASSIGNMENT1\EXTERNAL\.CACHE\IMGUI\CMAKEFILES\D11A73579EBCD875D820E2C35ECDC569\IMGUI-DOWNLOAD-CONFIGURE.RULE
+^C:\USERS\DANAT\DESKTOP\CS\ANIMATION\ASSIGNMENT2\ANIMATION-ASSIGNMENT2\EXTERNAL\.CACHE\IMGUI\CMAKEFILES\EBCB5544800EE7AA279E401DC85F218B\IMGUI-DOWNLOAD-CONFIGURE.RULE
 setlocal
-cd C:\Users\danat\Desktop\CS\Animation\Assignment1\build\imgui-build
-if %errorlevel% neq 0 goto :cmEnd
-C:
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/imgui/imgui-download-prefix/src/imgui-download-stamp/Debug/imgui-download-configure
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\DANAT\DESKTOP\CS\ANIMATION\ASSIGNMENT1\EXTERNAL\.CACHE\IMGUI\CMAKEFILES\D11A73579EBCD875D820E2C35ECDC569\IMGUI-DOWNLOAD-BUILD.RULE
-setlocal
-cd C:\Users\danat\Desktop\CS\Animation\Assignment1\build\imgui-build
+cd C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\build\imgui-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/imgui/imgui-download-prefix/src/imgui-download-stamp/Debug/imgui-download-build
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/imgui/imgui-download-prefix/src/imgui-download-stamp/Debug/imgui-download-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -96,15 +80,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\DANAT\DESKTOP\CS\ANIMATION\ASSIGNMENT1\EXTERNAL\.CACHE\IMGUI\CMAKEFILES\D11A73579EBCD875D820E2C35ECDC569\IMGUI-DOWNLOAD-INSTALL.RULE
+^C:\USERS\DANAT\DESKTOP\CS\ANIMATION\ASSIGNMENT2\ANIMATION-ASSIGNMENT2\EXTERNAL\.CACHE\IMGUI\CMAKEFILES\EBCB5544800EE7AA279E401DC85F218B\IMGUI-DOWNLOAD-BUILD.RULE
 setlocal
-cd C:\Users\danat\Desktop\CS\Animation\Assignment1\build\imgui-build
+cd C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\build\imgui-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/imgui/imgui-download-prefix/src/imgui-download-stamp/Debug/imgui-download-install
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/imgui/imgui-download-prefix/src/imgui-download-stamp/Debug/imgui-download-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -112,15 +96,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\DANAT\DESKTOP\CS\ANIMATION\ASSIGNMENT1\EXTERNAL\.CACHE\IMGUI\CMAKEFILES\D11A73579EBCD875D820E2C35ECDC569\IMGUI-DOWNLOAD-TEST.RULE
+^C:\USERS\DANAT\DESKTOP\CS\ANIMATION\ASSIGNMENT2\ANIMATION-ASSIGNMENT2\EXTERNAL\.CACHE\IMGUI\CMAKEFILES\EBCB5544800EE7AA279E401DC85F218B\IMGUI-DOWNLOAD-INSTALL.RULE
 setlocal
-cd C:\Users\danat\Desktop\CS\Animation\Assignment1\build\imgui-build
+cd C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\build\imgui-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/imgui/imgui-download-prefix/src/imgui-download-stamp/Debug/imgui-download-test
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/imgui/imgui-download-prefix/src/imgui-download-stamp/Debug/imgui-download-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -128,13 +112,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\DANAT\DESKTOP\CS\ANIMATION\ASSIGNMENT1\EXTERNAL\.CACHE\IMGUI\CMAKEFILES\DCCD625F12F995EF7CD22DAD0A5F24B9\IMGUI-DOWNLOAD-COMPLETE.RULE
+^C:\USERS\DANAT\DESKTOP\CS\ANIMATION\ASSIGNMENT2\ANIMATION-ASSIGNMENT2\EXTERNAL\.CACHE\IMGUI\CMAKEFILES\EBCB5544800EE7AA279E401DC85F218B\IMGUI-DOWNLOAD-TEST.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/imgui/CMakeFiles/Debug
+cd C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\build\imgui-build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/imgui/CMakeFiles/Debug/imgui-download-complete
+C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/imgui/imgui-download-prefix/src/imgui-download-stamp/Debug/imgui-download-done
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/imgui/imgui-download-prefix/src/imgui-download-stamp/Debug/imgui-download-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -142,7 +128,21 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\DANAT\DESKTOP\CS\ANIMATION\ASSIGNMENT1\EXTERNAL\.CACHE\IMGUI\CMAKEFILES\A720A1DEA2CE0D134267F7390546F423\IMGUI-DOWNLOAD.RULE
+^C:\USERS\DANAT\DESKTOP\CS\ANIMATION\ASSIGNMENT2\ANIMATION-ASSIGNMENT2\EXTERNAL\.CACHE\IMGUI\CMAKEFILES\B10E36829765645421E4E1232F0BECF7\IMGUI-DOWNLOAD-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/imgui/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/imgui/CMakeFiles/Debug/imgui-download-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/imgui/imgui-download-prefix/src/imgui-download-stamp/Debug/imgui-download-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DANAT\DESKTOP\CS\ANIMATION\ASSIGNMENT2\ANIMATION-ASSIGNMENT2\EXTERNAL\.CACHE\IMGUI\CMAKEFILES\BFF92243EC66094A5EA720B61FD7DE13\IMGUI-DOWNLOAD.RULE
 setlocal
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -150,9 +150,9 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\DANAT\DESKTOP\CS\ANIMATION\ASSIGNMENT1\EXTERNAL\.CACHE\IMGUI\CMAKELISTS.TXT
+^C:\USERS\DANAT\DESKTOP\CS\ANIMATION\ASSIGNMENT2\ANIMATION-ASSIGNMENT2\EXTERNAL\.CACHE\IMGUI\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/imgui -BC:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/imgui --check-stamp-file C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/imgui/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/imgui -BC:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/imgui --check-stamp-file C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/imgui/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

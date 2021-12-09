@@ -2,37 +2,37 @@
 	"sources" : 
 	[
 		{
-			"file" : "C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/glfw/CMakeFiles/glfw-download"
+			"file" : "C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/glfw/CMakeFiles/glfw-download"
 		},
 		{
-			"file" : "C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/glfw/CMakeFiles/e21332ab06b9b864a733d1ce52515564/glfw-download.rule"
+			"file" : "C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/glfw/CMakeFiles/c359f0b49a722715f9788163e8edf9ef/glfw-download.rule"
 		},
 		{
-			"file" : "C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/glfw/CMakeFiles/403a81f95037e55b5978b3c2e0df4e2c/glfw-download-complete.rule"
+			"file" : "C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/glfw/CMakeFiles/c2d7d7f55c3cedcedb90d18bcc751d7e/glfw-download-complete.rule"
 		},
 		{
-			"file" : "C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/glfw/CMakeFiles/df7ba96e11259d4234a891d885811b0b/glfw-download-build.rule"
+			"file" : "C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/glfw/CMakeFiles/260c9a852b34b61b5097acca1b446139/glfw-download-build.rule"
 		},
 		{
-			"file" : "C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/glfw/CMakeFiles/df7ba96e11259d4234a891d885811b0b/glfw-download-configure.rule"
+			"file" : "C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/glfw/CMakeFiles/260c9a852b34b61b5097acca1b446139/glfw-download-configure.rule"
 		},
 		{
-			"file" : "C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/glfw/CMakeFiles/df7ba96e11259d4234a891d885811b0b/glfw-download-download.rule"
+			"file" : "C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/glfw/CMakeFiles/260c9a852b34b61b5097acca1b446139/glfw-download-download.rule"
 		},
 		{
-			"file" : "C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/glfw/CMakeFiles/df7ba96e11259d4234a891d885811b0b/glfw-download-install.rule"
+			"file" : "C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/glfw/CMakeFiles/260c9a852b34b61b5097acca1b446139/glfw-download-install.rule"
 		},
 		{
-			"file" : "C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/glfw/CMakeFiles/df7ba96e11259d4234a891d885811b0b/glfw-download-mkdir.rule"
+			"file" : "C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/glfw/CMakeFiles/260c9a852b34b61b5097acca1b446139/glfw-download-mkdir.rule"
 		},
 		{
-			"file" : "C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/glfw/CMakeFiles/df7ba96e11259d4234a891d885811b0b/glfw-download-patch.rule"
+			"file" : "C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/glfw/CMakeFiles/260c9a852b34b61b5097acca1b446139/glfw-download-patch.rule"
 		},
 		{
-			"file" : "C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/glfw/CMakeFiles/df7ba96e11259d4234a891d885811b0b/glfw-download-test.rule"
+			"file" : "C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/glfw/CMakeFiles/260c9a852b34b61b5097acca1b446139/glfw-download-test.rule"
 		},
 		{
-			"file" : "C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/glfw/CMakeFiles/df7ba96e11259d4234a891d885811b0b/glfw-download-update.rule"
+			"file" : "C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/glfw/CMakeFiles/260c9a852b34b61b5097acca1b446139/glfw-download-update.rule"
 		}
 	],
 	"target" : 

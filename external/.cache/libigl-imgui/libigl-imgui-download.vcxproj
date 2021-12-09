@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F425212B-FEAE-3558-A620-D0CDD267A95D}</ProjectGuid>
+    <ProjectGuid>{95B10DB6-3A0C-34DD-9EB4-29F15F940CB3}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -105,24 +105,24 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\de3bc68dca2e78751e8dd4d92d56ab9f\libigl-imgui-download-mkdir.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\0c67ed7d3989f5ae83daccc7ae914398\libigl-imgui-download-mkdir.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'libigl-imgui-download'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/cmake/../external/libigl-imgui
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/cmake/../external/libigl-imgui
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/build/libigl-imgui-build
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/build/libigl-imgui-build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/tmp
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/tmp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-mkdir
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -131,25 +131,25 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Creating directories for 'libigl-imgui-download'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/cmake/../external/libigl-imgui
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/cmake/../external/libigl-imgui
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/build/libigl-imgui-build
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/build/libigl-imgui-build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/tmp
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/tmp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-mkdir
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -158,25 +158,25 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Creating directories for 'libigl-imgui-download'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/cmake/../external/libigl-imgui
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/cmake/../external/libigl-imgui
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/build/libigl-imgui-build
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/build/libigl-imgui-build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/tmp
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/tmp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-mkdir
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -185,25 +185,25 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Creating directories for 'libigl-imgui-download'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/cmake/../external/libigl-imgui
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/cmake/../external/libigl-imgui
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/build/libigl-imgui-build
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/build/libigl-imgui-build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/tmp
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/tmp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-mkdir
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -212,21 +212,21 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\de3bc68dca2e78751e8dd4d92d56ab9f\libigl-imgui-download-download.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\0c67ed7d3989f5ae83daccc7ae914398\libigl-imgui-download-download.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (git clone) for 'libigl-imgui-download'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\danat\Desktop\CS\Animation\Assignment1\external
+cd C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/tmp/libigl-imgui-download-gitclone.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/tmp/libigl-imgui-download-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-download
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -234,18 +234,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\libigl-imgui-download-gitinfo.txt;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\libigl-imgui-download-gitinfo.txt;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing download step (git clone) for 'libigl-imgui-download'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\danat\Desktop\CS\Animation\Assignment1\external
+cd C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/tmp/libigl-imgui-download-gitclone.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/tmp/libigl-imgui-download-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-download
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -253,18 +253,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\libigl-imgui-download-gitinfo.txt;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\libigl-imgui-download-gitinfo.txt;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing download step (git clone) for 'libigl-imgui-download'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd C:\Users\danat\Desktop\CS\Animation\Assignment1\external
+cd C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/tmp/libigl-imgui-download-gitclone.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/tmp/libigl-imgui-download-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-download
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -272,18 +272,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\libigl-imgui-download-gitinfo.txt;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\libigl-imgui-download-gitinfo.txt;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing download step (git clone) for 'libigl-imgui-download'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd C:\Users\danat\Desktop\CS\Animation\Assignment1\external
+cd C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/tmp/libigl-imgui-download-gitclone.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/tmp/libigl-imgui-download-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-download
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -291,20 +291,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\libigl-imgui-download-gitinfo.txt;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\libigl-imgui-download-gitinfo.txt;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\de3bc68dca2e78751e8dd4d92d56ab9f\libigl-imgui-download-update.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\0c67ed7d3989f5ae83daccc7ae914398\libigl-imgui-download-update.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing update step for 'libigl-imgui-download'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\danat\Desktop\CS\Animation\Assignment1\external\libigl-imgui
+cd C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\libigl-imgui
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/tmp/libigl-imgui-download-gitupdate.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/tmp/libigl-imgui-download-gitupdate.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -312,17 +312,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing update step for 'libigl-imgui-download'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\danat\Desktop\CS\Animation\Assignment1\external\libigl-imgui
+cd C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\libigl-imgui
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/tmp/libigl-imgui-download-gitupdate.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/tmp/libigl-imgui-download-gitupdate.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -330,17 +330,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing update step for 'libigl-imgui-download'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd C:\Users\danat\Desktop\CS\Animation\Assignment1\external\libigl-imgui
+cd C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\libigl-imgui
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/tmp/libigl-imgui-download-gitupdate.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/tmp/libigl-imgui-download-gitupdate.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -348,17 +348,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing update step for 'libigl-imgui-download'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd C:\Users\danat\Desktop\CS\Animation\Assignment1\external\libigl-imgui
+cd C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\libigl-imgui
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/tmp/libigl-imgui-download-gitupdate.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/tmp/libigl-imgui-download-gitupdate.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -366,19 +366,19 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\de3bc68dca2e78751e8dd4d92d56ab9f\libigl-imgui-download-patch.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\0c67ed7d3989f5ae83daccc7ae914398\libigl-imgui-download-patch.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'libigl-imgui-download'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-patch
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -386,15 +386,15 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No patch step for 'libigl-imgui-download'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-patch
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -402,15 +402,15 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No patch step for 'libigl-imgui-download'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-patch
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -418,15 +418,15 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No patch step for 'libigl-imgui-download'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-patch
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -434,23 +434,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\de3bc68dca2e78751e8dd4d92d56ab9f\libigl-imgui-download-configure.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\0c67ed7d3989f5ae83daccc7ae914398\libigl-imgui-download-configure.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No configure step for 'libigl-imgui-download'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\danat\Desktop\CS\Animation\Assignment1\build\libigl-imgui-build
+cd C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\build\libigl-imgui-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-configure
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -458,18 +458,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\tmp\libigl-imgui-download-cfgcmd.txt;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\tmp\libigl-imgui-download-cfgcmd.txt;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No configure step for 'libigl-imgui-download'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\danat\Desktop\CS\Animation\Assignment1\build\libigl-imgui-build
+cd C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\build\libigl-imgui-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-configure
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -477,18 +477,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\tmp\libigl-imgui-download-cfgcmd.txt;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\tmp\libigl-imgui-download-cfgcmd.txt;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No configure step for 'libigl-imgui-download'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd C:\Users\danat\Desktop\CS\Animation\Assignment1\build\libigl-imgui-build
+cd C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\build\libigl-imgui-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-configure
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -496,18 +496,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\tmp\libigl-imgui-download-cfgcmd.txt;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\tmp\libigl-imgui-download-cfgcmd.txt;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No configure step for 'libigl-imgui-download'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd C:\Users\danat\Desktop\CS\Animation\Assignment1\build\libigl-imgui-build
+cd C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\build\libigl-imgui-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-configure
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -515,22 +515,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\tmp\libigl-imgui-download-cfgcmd.txt;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\tmp\libigl-imgui-download-cfgcmd.txt;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\de3bc68dca2e78751e8dd4d92d56ab9f\libigl-imgui-download-build.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\0c67ed7d3989f5ae83daccc7ae914398\libigl-imgui-download-build.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No build step for 'libigl-imgui-download'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\danat\Desktop\CS\Animation\Assignment1\build\libigl-imgui-build
+cd C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\build\libigl-imgui-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-build
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -538,18 +538,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No build step for 'libigl-imgui-download'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\danat\Desktop\CS\Animation\Assignment1\build\libigl-imgui-build
+cd C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\build\libigl-imgui-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-build
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -557,18 +557,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No build step for 'libigl-imgui-download'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd C:\Users\danat\Desktop\CS\Animation\Assignment1\build\libigl-imgui-build
+cd C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\build\libigl-imgui-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-build
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -576,18 +576,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No build step for 'libigl-imgui-download'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd C:\Users\danat\Desktop\CS\Animation\Assignment1\build\libigl-imgui-build
+cd C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\build\libigl-imgui-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-build
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -595,22 +595,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\de3bc68dca2e78751e8dd4d92d56ab9f\libigl-imgui-download-install.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\0c67ed7d3989f5ae83daccc7ae914398\libigl-imgui-download-install.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No install step for 'libigl-imgui-download'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\danat\Desktop\CS\Animation\Assignment1\build\libigl-imgui-build
+cd C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\build\libigl-imgui-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-install
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -618,18 +618,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No install step for 'libigl-imgui-download'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\danat\Desktop\CS\Animation\Assignment1\build\libigl-imgui-build
+cd C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\build\libigl-imgui-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-install
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -637,18 +637,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No install step for 'libigl-imgui-download'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd C:\Users\danat\Desktop\CS\Animation\Assignment1\build\libigl-imgui-build
+cd C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\build\libigl-imgui-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-install
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -656,18 +656,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No install step for 'libigl-imgui-download'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd C:\Users\danat\Desktop\CS\Animation\Assignment1\build\libigl-imgui-build
+cd C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\build\libigl-imgui-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-install
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -675,22 +675,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\de3bc68dca2e78751e8dd4d92d56ab9f\libigl-imgui-download-test.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\0c67ed7d3989f5ae83daccc7ae914398\libigl-imgui-download-test.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No test step for 'libigl-imgui-download'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\danat\Desktop\CS\Animation\Assignment1\build\libigl-imgui-build
+cd C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\build\libigl-imgui-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-test
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -698,18 +698,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No test step for 'libigl-imgui-download'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\danat\Desktop\CS\Animation\Assignment1\build\libigl-imgui-build
+cd C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\build\libigl-imgui-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-test
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -717,18 +717,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No test step for 'libigl-imgui-download'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd C:\Users\danat\Desktop\CS\Animation\Assignment1\build\libigl-imgui-build
+cd C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\build\libigl-imgui-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-test
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -736,18 +736,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No test step for 'libigl-imgui-download'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd C:\Users\danat\Desktop\CS\Animation\Assignment1\build\libigl-imgui-build
+cd C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\build\libigl-imgui-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-test
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -755,20 +755,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\d2cca91c2cc3cf5e77673fc514e8bc59\libigl-imgui-download-complete.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\7cdc32d34495a846053509a0bfec46ba\libigl-imgui-download-complete.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'libigl-imgui-download'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/CMakeFiles/$(Configuration)
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/CMakeFiles/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/CMakeFiles/$(Configuration)/libigl-imgui-download-complete
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/CMakeFiles/$(Configuration)/libigl-imgui-download-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-done
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -776,17 +776,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-install;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-mkdir;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-download;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-update;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-patch;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-configure;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-build;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\$(Configuration)\libigl-imgui-download-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-install;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-mkdir;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-download;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-update;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-patch;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-configure;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-build;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\$(Configuration)\libigl-imgui-download-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Completed 'libigl-imgui-download'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/CMakeFiles/$(Configuration)
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/CMakeFiles/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/CMakeFiles/$(Configuration)/libigl-imgui-download-complete
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/CMakeFiles/$(Configuration)/libigl-imgui-download-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-done
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -794,17 +794,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-install;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-mkdir;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-download;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-update;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-patch;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-configure;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-build;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\$(Configuration)\libigl-imgui-download-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-install;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-mkdir;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-download;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-update;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-patch;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-configure;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-build;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\$(Configuration)\libigl-imgui-download-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Completed 'libigl-imgui-download'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/CMakeFiles/$(Configuration)
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/CMakeFiles/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/CMakeFiles/$(Configuration)/libigl-imgui-download-complete
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/CMakeFiles/$(Configuration)/libigl-imgui-download-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-done
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -812,17 +812,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-install;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-mkdir;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-download;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-update;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-patch;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-configure;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-build;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\$(Configuration)\libigl-imgui-download-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-install;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-mkdir;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-download;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-update;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-patch;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-configure;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-build;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\$(Configuration)\libigl-imgui-download-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Completed 'libigl-imgui-download'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/CMakeFiles/$(Configuration)
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/CMakeFiles/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/CMakeFiles/$(Configuration)/libigl-imgui-download-complete
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/CMakeFiles/$(Configuration)/libigl-imgui-download-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-done
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/$(Configuration)/libigl-imgui-download-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -830,14 +830,14 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-install;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-mkdir;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-download;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-update;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-patch;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-configure;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-build;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\$(Configuration)\libigl-imgui-download-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-install;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-mkdir;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-download;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-update;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-patch;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-configure;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-build;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\src\libigl-imgui-download-stamp\$(Configuration)\libigl-imgui-download-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\$(Configuration)\libigl-imgui-download-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\8a821aa265a6c78a1610a76403692a2f\libigl-imgui-download.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\b1cdf35382a2fa9a10364604faac3a3f\libigl-imgui-download.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 :cmEnd
@@ -846,8 +846,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\$(Configuration)\libigl-imgui-download-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\libigl-imgui-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\$(Configuration)\libigl-imgui-download-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\libigl-imgui-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
@@ -858,8 +858,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\$(Configuration)\libigl-imgui-download-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\libigl-imgui-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\$(Configuration)\libigl-imgui-download-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\libigl-imgui-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
@@ -870,8 +870,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\$(Configuration)\libigl-imgui-download-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\libigl-imgui-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\$(Configuration)\libigl-imgui-download-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\libigl-imgui-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
@@ -882,18 +882,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\$(Configuration)\libigl-imgui-download-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\libigl-imgui-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\$(Configuration)\libigl-imgui-download-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\libigl-imgui-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui -BC:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui --check-stamp-file C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui -BC:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui --check-stamp-file C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -901,12 +901,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\ExternalProject-gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\RepositoryInfo.txt.in;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\3.21.4\CMakeSystem.cmake;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\tmp\libigl-imgui-download-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\ExternalProject-gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\RepositoryInfo.txt.in;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\3.21.4\CMakeSystem.cmake;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\tmp\libigl-imgui-download-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui -BC:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui --check-stamp-file C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui -BC:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui --check-stamp-file C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -914,12 +914,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\ExternalProject-gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\RepositoryInfo.txt.in;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\3.21.4\CMakeSystem.cmake;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\tmp\libigl-imgui-download-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\ExternalProject-gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\RepositoryInfo.txt.in;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\3.21.4\CMakeSystem.cmake;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\tmp\libigl-imgui-download-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui -BC:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui --check-stamp-file C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui -BC:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui --check-stamp-file C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -927,12 +927,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\ExternalProject-gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\RepositoryInfo.txt.in;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\3.21.4\CMakeSystem.cmake;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\tmp\libigl-imgui-download-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\ExternalProject-gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\RepositoryInfo.txt.in;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\3.21.4\CMakeSystem.cmake;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\tmp\libigl-imgui-download-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui -BC:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui --check-stamp-file C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/libigl-imgui/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui -BC:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui --check-stamp-file C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/libigl-imgui/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -940,18 +940,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\ExternalProject-gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\RepositoryInfo.txt.in;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\3.21.4\CMakeSystem.cmake;C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\libigl-imgui-download-prefix\tmp\libigl-imgui-download-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\ExternalProject-gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\RepositoryInfo.txt.in;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\3.21.4\CMakeSystem.cmake;C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\libigl-imgui-download-prefix\tmp\libigl-imgui-download-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\libigl-imgui-download">
+    <None Include="C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\libigl-imgui-download">
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\ZERO_CHECK.vcxproj">
-      <Project>{6F6C5AC1-0D19-37FD-9AB1-43BFF4CE2FCD}</Project>
+    <ProjectReference Include="C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\ZERO_CHECK.vcxproj">
+      <Project>{42724FE6-8CE4-3E10-996F-4AB778D46C84}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

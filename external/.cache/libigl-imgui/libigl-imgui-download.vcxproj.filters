@@ -1,44 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\de3bc68dca2e78751e8dd4d92d56ab9f\libigl-imgui-download-mkdir.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\0c67ed7d3989f5ae83daccc7ae914398\libigl-imgui-download-mkdir.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\de3bc68dca2e78751e8dd4d92d56ab9f\libigl-imgui-download-download.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\0c67ed7d3989f5ae83daccc7ae914398\libigl-imgui-download-download.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\de3bc68dca2e78751e8dd4d92d56ab9f\libigl-imgui-download-update.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\0c67ed7d3989f5ae83daccc7ae914398\libigl-imgui-download-update.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\de3bc68dca2e78751e8dd4d92d56ab9f\libigl-imgui-download-patch.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\0c67ed7d3989f5ae83daccc7ae914398\libigl-imgui-download-patch.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\de3bc68dca2e78751e8dd4d92d56ab9f\libigl-imgui-download-configure.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\0c67ed7d3989f5ae83daccc7ae914398\libigl-imgui-download-configure.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\de3bc68dca2e78751e8dd4d92d56ab9f\libigl-imgui-download-build.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\0c67ed7d3989f5ae83daccc7ae914398\libigl-imgui-download-build.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\de3bc68dca2e78751e8dd4d92d56ab9f\libigl-imgui-download-install.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\0c67ed7d3989f5ae83daccc7ae914398\libigl-imgui-download-install.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\de3bc68dca2e78751e8dd4d92d56ab9f\libigl-imgui-download-test.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\0c67ed7d3989f5ae83daccc7ae914398\libigl-imgui-download-test.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\d2cca91c2cc3cf5e77673fc514e8bc59\libigl-imgui-download-complete.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\7cdc32d34495a846053509a0bfec46ba\libigl-imgui-download-complete.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\8a821aa265a6c78a1610a76403692a2f\libigl-imgui-download.rule">
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\b1cdf35382a2fa9a10364604faac3a3f\libigl-imgui-download.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\danat\Desktop\CS\Animation\Assignment1\external\.cache\libigl-imgui\CMakeFiles\libigl-imgui-download" />
+    <None Include="C:\Users\danat\Desktop\CS\Animation\Assignment2\Animation-Assignment2\external\.cache\libigl-imgui\CMakeFiles\libigl-imgui-download" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{FC3483FB-4BD0-3AEE-A9BF-4F0FD19EE7D7}</UniqueIdentifier>
+      <UniqueIdentifier>{D754C757-7736-39E6-B148-4D703BA9688D}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -113,6 +113,12 @@ static void glfw_key_callback(GLFWwindow* window, int key, int scancode, int act
 			rndr->core().is_animating = !rndr->core().is_animating;
 			break;
 		}
+		case 'B':
+		case 'b':
+		{
+			rndr->core().toggle(scn->data().show_overlay);
+			break;
+		}
 		case 'F':
 		case 'f':
 		{
@@ -178,7 +184,8 @@ static void glfw_key_callback(GLFWwindow* window, int key, int scancode, int act
 			rndr->TranslateCamera(Eigen::Vector3f(0.01f, 0, 0));
 			break;
 		case ' ':
-			scn->Simplify();
+			scn->isActive = !scn->isActive;
+			//scn->Simplify();
 			break;
 		
 		default: 

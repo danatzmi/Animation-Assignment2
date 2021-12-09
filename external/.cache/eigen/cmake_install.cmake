@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/eigen
+# Install script for directory: C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/eigen
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/eigen/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/eigen/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

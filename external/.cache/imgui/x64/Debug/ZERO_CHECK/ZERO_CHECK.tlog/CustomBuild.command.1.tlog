@@ -1,6 +1,6 @@
-^C:\USERS\DANAT\DESKTOP\CS\ANIMATION\ASSIGNMENT1\EXTERNAL\.CACHE\IMGUI\CMAKEFILES\A720A1DEA2CE0D134267F7390546F423\GENERATE.STAMP.RULE
+^C:\USERS\DANAT\DESKTOP\CS\ANIMATION\ASSIGNMENT2\ANIMATION-ASSIGNMENT2\EXTERNAL\.CACHE\IMGUI\CMAKEFILES\BFF92243EC66094A5EA720B61FD7DE13\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/imgui -BC:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/imgui --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/danat/Desktop/CS/Animation/Assignment1/external/.cache/imgui/imgui-download.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/imgui -BC:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/imgui --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/danat/Desktop/CS/Animation/Assignment2/Animation-Assignment2/external/.cache/imgui/imgui-download.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
