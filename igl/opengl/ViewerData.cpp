@@ -455,6 +455,42 @@ IGL_INLINE void igl::opengl::ViewerData::image_texture(const std::string fileNam
 
 }
 
+IGL_INLINE void igl::opengl::ViewerData::AddBoundingBox(Eigen::AlignedBox<double, 3>& m_box, Eigen::RowVector3d color)
+{
+    // Corners of the bounding 
+    Eigen::MatrixXd V_box(8, 3);
+    V_box << m_box.corner(m_box.BottomLeftCeil).transpose(),
+        m_box.corner(m_box.BottomLeftFloor).transpose(),
+        m_box.corner(m_box.BottomRightCeil).transpose(),
+        m_box.corner(m_box.BottomRightFloor).transpose(),
+        m_box.corner(m_box.TopLeftCeil).transpose(),
+        m_box.corner(m_box.TopLeftFloor).transpose(),
+        m_box.corner(m_box.TopRightCeil).transpose(),
+        m_box.corner(m_box.TopRightFloor).transpose();
+    // Edges of the bounding box
+    Eigen::MatrixXi E_box(12, 2);
+    E_box <<
+        0, 1,
+        1, 3,
+        2, 3,
+        2, 0,
+        4, 5,
+        5, 7,
+        6, 7,
+        6, 4,
+        0, 4,
+        1, 5,
+        2, 6,
+        7, 3;
+    // Plot the corners of the bounding box as points
+    add_points(V_box, color);
+    // Plot the edges of the bounding box
+    for (unsigned i = 0; i < E_box.rows(); ++i)
+    {
+        add_edges(V_box.row(E_box(i, 0)), V_box.row(E_box(i, 1)), color);
+    }
+}
+
 IGL_INLINE void igl::opengl::ViewerData::grid_texture()
 {
   // Don't do anything for an empty mesh

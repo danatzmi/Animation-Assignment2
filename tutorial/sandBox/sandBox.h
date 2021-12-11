@@ -10,6 +10,7 @@ class SandBox : public igl::opengl::glfw::Viewer
 public:
 	SandBox();
 	~SandBox();
+	void OnNewMeshLoad();
 	void Init(const std::string& config);
 	void InitObjectData(ObjectData& od, Eigen::MatrixXd& V, Eigen::MatrixXi& F);
 	void ReInitObjectData(ObjectData& od);
@@ -17,14 +18,13 @@ public:
 	void Simplify();
 	void Simplify(int num_to_collapse, ObjectData& od);
 	void MoveTo(double x, double y);
-	void InitVelocity(ObjectData& od);
-	void AddBoundingBox(Eigen::AlignedBox<double, 3>& m_box, Eigen::RowVector3d& color);
-
+	bool ObjectsCollide(igl::AABB<Eigen::MatrixXd, 3>* firstTree, igl::AABB<Eigen::MatrixXd, 3>* secondTree);
+	bool BoxesIntersect(Eigen::AlignedBox <double, 3>& firstBox, Eigen::AlignedBox <double, 3>& secondBox);
 
 private:
 	// Prepare array-based edge data structures and priority queue
 	std::vector<ObjectData*>* objectsData;
-	
+
 	void Animate();
 };
 

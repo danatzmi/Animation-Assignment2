@@ -52,6 +52,7 @@ namespace glfw
 	virtual Eigen::Vector3d GetCameraPosition() { return Eigen::Vector3d(0, 0, 0); }
 	virtual Eigen::Vector3d GetCameraForward() { return Eigen::Vector3d(0, 0, -1); }
 	virtual Eigen::Vector3d GetCameraUp() { return Eigen::Vector3d(0, 1, 0); }
+    virtual void OnNewMeshLoad();
 
 	//IGL_INLINE void init_plugins();
     //IGL_INLINE void shutdown_plugins();

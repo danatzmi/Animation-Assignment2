@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
   renderer.init(&viewer,2,menu);
   
   disp->SetRenderer(&renderer);
-  disp->launch_rendering(true);
+   disp->launch_rendering(true);
   delete menu;
   delete disp;
 }

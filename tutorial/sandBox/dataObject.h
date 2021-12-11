@@ -19,6 +19,4 @@ struct _ObjectData {
 	std::vector<Eigen::Matrix4d*> QMATRICES;
 	int num_collapsed;
 	igl::AABB<Eigen::MatrixXd, 3>* tree;
-	igl::AABB<Eigen::MatrixXd, 3>* subTree;
-	Eigen::Vector3d velocity;
 } typedef ObjectData;

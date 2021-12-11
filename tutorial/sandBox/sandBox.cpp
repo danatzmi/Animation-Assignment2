@@ -16,6 +16,7 @@
 #include "simplifier.h"
 #include "igl/swept_volume_bounding_box.h"
 
+
 SandBox::SandBox() : objectsData{ new std::vector<ObjectData*>{} }
 {
 
@@ -26,12 +27,22 @@ SandBox::~SandBox()
     delete objectsData;
 }
 
+void SandBox::OnNewMeshLoad()
+{
+	ObjectData* od = new ObjectData();
+	InitObjectData(*od, data().V, data().F);
+	objectsData->push_back(od);
+	data().AddBoundingBox(od->tree->m_box, Eigen::RowVector3d(0, 1, 0));
+	data().dirty = 157; //this line prevents texture coordinates
+}
+
 void SandBox::Init(const std::string &config)
 {
 	
 	std::string item_name;
 	std::ifstream nameFileout;
 	nameFileout.open(config);
+
 	if (!nameFileout.is_open())
 	{
 		std::cout << "Can't open file " << config << std::endl;
@@ -58,18 +69,15 @@ void SandBox::Init(const std::string &config)
             double x = -1 + (n * 2);
             double y = -1 + (n * 2);
             MoveTo(x, y);
-            InitVelocity(*od);
-            Eigen::RowVector3d green(0, 1, 0);
-            AddBoundingBox(od->tree->m_box, green);
+			data().AddBoundingBox(od->tree->m_box, Eigen::RowVector3d(0, 1, 0));
             data().dirty = 157; //this line prevents texture coordinates
             n++;
 		}
 		nameFileout.close();
 	}
 	MyTranslate(Eigen::Vector3d(0, 0, -1), true);
-	
 	data().set_colors(Eigen::RowVector3d(0.9, 0.1, 0.1));
-    isActive = true;
+	isActive = true;
 }
 
 void SandBox::InitObjectData(ObjectData& od, Eigen::MatrixXd& V, Eigen::MatrixXi& F)
@@ -84,8 +92,6 @@ void SandBox::InitObjectData(ObjectData& od, Eigen::MatrixXd& V, Eigen::MatrixXi
     od.Q = new PriorityQueue();
     od.num_collapsed = 0;
     od.tree = new igl::AABB<Eigen::MatrixXd, 3>{};
-    od.subTree = new igl::AABB<Eigen::MatrixXd, 3>{};
-    od.velocity << 0, 0, 0;
 
     igl::edge_flaps(*od.F, *od.E, *od.EMAP, *od.EF, *od.EI);
 
@@ -173,50 +179,174 @@ void SandBox::MoveTo(double x, double y)
     WhenTranslate();
 }
 
-void SandBox::InitVelocity(ObjectData& od)
-{
-
-}
-
-void SandBox::AddBoundingBox(Eigen::AlignedBox<double, 3>& m_box, Eigen::RowVector3d& color) {
-    // Corners of the bounding 
-    Eigen::MatrixXd V_box(8, 3);
-    V_box << m_box.corner(m_box.BottomLeftCeil).transpose(),
-        m_box.corner(m_box.BottomLeftFloor).transpose(),
-        m_box.corner(m_box.BottomRightCeil).transpose(),
-        m_box.corner(m_box.BottomRightFloor).transpose(),
-        m_box.corner(m_box.TopLeftCeil).transpose(),
-        m_box.corner(m_box.TopLeftFloor).transpose(),
-        m_box.corner(m_box.TopRightCeil).transpose(),
-        m_box.corner(m_box.TopRightFloor).transpose();
-    // Edges of the bounding box
-    Eigen::MatrixXi E_box(12, 2);
-    E_box <<
-        0, 1,
-        1, 3,
-        2, 3,
-        2, 0,
-        4, 5,
-        5, 7,
-        6, 7,
-        6, 4,
-        0, 4,
-        1, 5,
-        2, 6,
-        7, 3;
-    // Plot the corners of the bounding box as points
-    data().add_points(V_box, color);
-    // Plot the edges of the bounding box
-    for (unsigned i = 0; i < E_box.rows(); ++i)
-    {
-        data().add_edges(V_box.row(E_box(i, 0)), V_box.row(E_box(i, 1)), color);
-    }
-}
-
 void SandBox::Animate()
 {
 	if (isActive)
 	{
-        data().MyTranslate(Eigen::Vector3d(-0.005, 0, 0), true);
+        data().TranslateInSystem(GetRotation(), Eigen::Vector3d(-0.005, 0, 0));
+		if (ObjectsCollide(objectsData->at(0)->tree, objectsData->at(1)->tree))															
+		{
+			isActive = false;
+		}
 	}
+}
+
+bool SandBox::ObjectsCollide(igl::AABB<Eigen::MatrixXd, 3>* firstTree, igl::AABB<Eigen::MatrixXd, 3>* secondTree)
+{
+	if (firstTree == nullptr || secondTree == nullptr)
+	{
+		return false;
+	}
+ 	if (BoxesIntersect(firstTree->m_box, secondTree->m_box)) {
+		if (firstTree->is_leaf() && secondTree->is_leaf())
+		{
+			data_list.at(0).AddBoundingBox(firstTree->m_box, Eigen::RowVector3d(0, 1, 0));
+			data_list.at(1).AddBoundingBox(secondTree->m_box, Eigen::RowVector3d(0, 1, 0));
+			return true;
+		}
+		else if (!firstTree->is_leaf() && secondTree->is_leaf())
+		{
+			return	ObjectsCollide(firstTree->m_left, secondTree) ||
+					ObjectsCollide(firstTree->m_right, secondTree);
+		}
+		else if (firstTree->is_leaf() && !secondTree->is_leaf())
+		{
+
+			return  ObjectsCollide(firstTree, secondTree->m_left) ||
+					ObjectsCollide(firstTree, secondTree->m_right);
+		}
+		else if (!firstTree->is_leaf() && !secondTree->is_leaf())
+		{
+			return  ObjectsCollide(firstTree->m_left, secondTree->m_left) ||
+					ObjectsCollide(firstTree->m_left, secondTree->m_right) ||
+					ObjectsCollide(firstTree->m_right, secondTree->m_left) ||
+					ObjectsCollide(firstTree->m_right, secondTree->m_right);
+		}
+	}
+	return false;
+}
+
+bool SandBox::BoxesIntersect(Eigen::AlignedBox <double, 3>& firstBox, Eigen::AlignedBox <double, 3>& secondBox)
+{
+	Eigen::Matrix4d firstTrans = data_list.at(0).MakeTransd();
+	Eigen::Vector3d ARightCol(firstTrans(0, 3), firstTrans(1, 3), firstTrans(2, 3));
+
+	Eigen::Matrix4d secondTrans = data_list.at(1).MakeTransd();
+	Eigen::Vector3d BRightCol(secondTrans(0, 3), secondTrans(1, 3), secondTrans(2, 3));
+
+	Eigen::Vector3d D = (secondBox.center() + BRightCol) - (firstBox.center() + ARightCol);
+
+	Eigen::Matrix3d A = data_list.at(0).GetRotation();
+	Eigen::Matrix3d B = data_list.at(1).GetRotation();
+
+	Eigen::Matrix3d A_matrix;
+	A_matrix << A(0, 0), A(1, 0), A(2, 0),
+				A(0, 1), A(1, 1), A(2, 1),
+				A(0, 2), A(1, 2), A(2, 2);
+
+	Eigen::Matrix3d B_matrix;
+	B_matrix << B(0, 0), B(1, 0), B(2, 0),
+				B(0, 1), B(1, 1), B(2, 1),
+				B(0, 2), B(1, 2), B(2, 2);
+
+	Eigen::RowVector3d a;
+	a << firstBox.sizes()(0) / 2, firstBox.sizes()(1) / 2, firstBox.sizes()(2) / 2;
+
+	Eigen::RowVector3d b;
+	b << secondBox.sizes()(0) / 2, secondBox.sizes()(1) / 2, secondBox.sizes()(2) / 2;
+
+	Eigen::Matrix3d C = A.transpose() * B;
+
+	double R0, R1, R;
+
+	// L = A0
+	R0 = a(0);
+	R1 = b(0) * abs(C(0, 0)) + b(1) * abs(C(0, 1)) + b(2) * abs(C(0, 2));
+	R = (A_matrix.row(0) * D).norm();
+	if (R > R0 + R1) return false;
+
+	// L = A1
+	R0 = a(1);
+	R1 = b(0) * abs(C(1, 0)) + b(1) * abs(C(1, 1)) + b(2) * abs(C(1, 2));
+	R = (A_matrix.row(1) * D).norm();
+	if (R > R0 + R1) return false;
+
+	// L = A2
+	R0 = a(2);
+	R1 = b(0) * abs(C(2, 0)) + b(1) * abs(C(2, 1)) + b(2) * abs(C(2, 2));
+	R = (A_matrix.row(2) * D).norm();
+	if (R > R0 + R1) return false;
+
+	// L = B0
+	R0 = a(0) * abs(C(0, 0)) + a(1) * abs(C(1, 0)) + a(2) * abs(C(2, 0));
+	R1 = b(0);
+	R = (B_matrix.row(0) * D).norm();
+	if (R > R0 + R1) return false;
+
+	// L = B1
+	R0 = a(0) * abs(C(0, 1)) + a(1) * abs(C(1, 1)) + a(2) * abs(C(2, 1));
+	R1 = b(1);
+	R = (B_matrix.row(1) * D).norm();
+	if (R > R0 + R1) return false;
+
+	// L = B2
+	R0 = a(0) * abs(C(0, 2)) + a(1) * abs(C(1, 2)) + a(2) * abs(C(2, 2));
+	R1 = b(2);
+	R = (B_matrix.row(2) * D).norm();
+	if (R > R0 + R1) return false;
+
+	// L = A0 x B0
+	R0 = a(1) * abs(C(2, 0)) + a(2) * abs(C(1, 0));
+	R1 = b(1) * abs(C(0, 2)) + b(2) * abs(C(0, 1));
+	R = (C(1, 0) * A_matrix.row(2) * D - C(2, 0) * A_matrix.row(1) * D).norm();
+	if (R > R0 + R1) return false;
+
+	// L = A0 x B1
+	R0 = a(1) * abs(C(2, 1)) + (a(2))*abs(C(1, 1));
+	R1 = b(0) * abs(C(0, 2)) + b(2) * abs(C(0, 0));
+	R = (C(1, 1) * A_matrix.row(2) * D - C(2, 1) * A_matrix.row(1) * D).norm();
+	if (R > R0 + R1) return false;
+
+	// L = A0 x B2
+	R0 = a(1) * abs(C(2, 2)) + a(2) * abs(C(1, 2));
+	R1 = b(0) * abs(C(0, 1)) + b(1) * abs(C(0, 0));
+	R = (C(1, 2) * A_matrix.row(2) * D - C(2, 2) * A_matrix.row(1) * D).norm();
+	if (R > R0 + R1) return false;
+
+	// L = A1 x B0
+	R0 = a(0) * abs(C(2, 0)) + a(2) * abs(C(0, 0));
+	R1 = b(1) * abs(C(1, 2)) + b(2) * abs(C(1, 1));
+	R = (C(2, 0) * A_matrix.row(0) * D - C(0, 0) * A_matrix.row(2) * D).norm();
+	if (R > R0 + R1) return false;
+
+	// L = A1 x B1
+	R0 = a(0) * abs(C(2, 1)) + a(2) * abs(C(0, 1));
+	R1 = b(0) * abs(C(1, 2)) + b(2) * abs(C(1, 0));
+	R = (C(2, 1) * A_matrix.row(0) * D - C(0, 1) * A_matrix.row(2) * D).norm();
+	if (R > R0 + R1) return false;
+
+	/// L = A1 x B2
+	R0 = a(0) * abs(C(2, 2)) + a(2) * abs(C(0, 2));
+	R1 = b(0) * abs(C(1, 1)) + b(1) * abs(C(1, 0));
+	R = (C(2, 2) * A_matrix.row(0) * D - C(0, 2) * A_matrix.row(2) * D).norm();
+	if (R > R0 + R1) return false;
+
+	// L = A2 x B0
+	R0 = a(0) * abs(C(1, 0)) + a(1) * abs(C(0, 0));
+	R1 = b(1) * abs(C(2, 2)) + b(2) * abs(C(2, 1));
+	R = (C(0, 0) * A_matrix.row(1) * D - C(1, 0) * A_matrix.row(0) * D).norm();
+	if (R > R0 + R1) return false;
+
+	// L = A2 x B1
+	R0 = a(0) * abs(C(1, 1)) + a(1) * abs(C(0, 1));
+	R1 = b(0) * abs(C(2, 2)) + b(2) * abs(C(2, 0));
+	R = (C(0, 1) * A_matrix.row(1) * D - C(1, 1) * A_matrix.row(0) * D).norm();
+	if (R > R0 + R1) return false;
+
+	// L = A2 x B2
+	R0 = a(0) * abs(C(1, 2)) + a(1) * abs(C(0, 2));
+	R1 = b(0) * abs(C(2, 1)) + b(1) * abs(C(2, 0));
+	R = (C(0, 2) * A_matrix.row(1) * D - C(1, 2) * A_matrix.row(0) * D).norm();
+	if (R > R0 + R1) return false;
+	return true;
 }

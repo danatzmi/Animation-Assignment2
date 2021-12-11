@@ -104,6 +104,11 @@ namespace glfw
   {
   }
 
+  void Viewer::OnNewMeshLoad()
+  {
+
+  }
+
   IGL_INLINE bool Viewer::load_mesh_from_file(
       const std::string & mesh_file_name_string)
   {
@@ -267,6 +272,7 @@ namespace glfw
       return;
     
     this->load_mesh_from_file(fname.c_str());
+    this->OnNewMeshLoad();
   }
 
   IGL_INLINE void Viewer::open_dialog_save_mesh()

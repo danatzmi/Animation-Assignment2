@@ -146,6 +146,9 @@ public:
   IGL_INLINE void grid_texture();
   IGL_INLINE void image_texture(const std::string fileName );
 
+  // DA: Added Ass2
+  IGL_INLINE void AddBoundingBox(Eigen::AlignedBox<double, 3>& m_box, Eigen::RowVector3d color);
+
   // Copy visualization options from one viewport to another
   //IGL_INLINE void copy_options(const ViewerCore &from, const ViewerCore &to);
 
