@@ -19,7 +19,8 @@
 
 SandBox::SandBox() : objectsData{ new std::vector<ObjectData*>{} }
 {
-
+	xVelocity = -0.005;
+	yVelocity = 0;
 }
 
 SandBox::~SandBox()
@@ -183,7 +184,7 @@ void SandBox::Animate()
 {
 	if (isActive)
 	{
-        data().TranslateInSystem(GetRotation(), Eigen::Vector3d(-0.005, 0, 0));
+        data().TranslateInSystem(GetRotation(), Eigen::Vector3d(xVelocity, yVelocity, 0));
 		if (ObjectsCollide(objectsData->at(0)->tree, objectsData->at(1)->tree))															
 		{
 			isActive = false;
@@ -229,12 +230,18 @@ bool SandBox::ObjectsCollide(igl::AABB<Eigen::MatrixXd, 3>* firstTree, igl::AABB
 bool SandBox::BoxesIntersect(Eigen::AlignedBox <double, 3>& firstBox, Eigen::AlignedBox <double, 3>& secondBox)
 {
 	Eigen::Matrix4d firstTrans = data_list.at(0).MakeTransd();
-	Eigen::Vector3d ARightCol(firstTrans(0, 3), firstTrans(1, 3), firstTrans(2, 3));
-
 	Eigen::Matrix4d secondTrans = data_list.at(1).MakeTransd();
-	Eigen::Vector3d BRightCol(secondTrans(0, 3), secondTrans(1, 3), secondTrans(2, 3));
+	 
+	Eigen::Vector3d firstBoxCenter = firstBox.center();
+	Eigen::Vector3d secondBoxCenter = secondBox.center();
 
-	Eigen::Vector3d D = (secondBox.center() + BRightCol) - (firstBox.center() + ARightCol);
+	Eigen::Vector4d firstMult = firstTrans * Eigen::Vector4d(firstBoxCenter(0), firstBoxCenter(1), firstBoxCenter(2), 1);
+	Eigen::Vector4d secondMult = secondTrans * Eigen::Vector4d(secondBoxCenter(0), secondBoxCenter(1), secondBoxCenter(2), 1);
+
+	Eigen::Vector3d C0(firstMult(0), firstMult(1), firstMult(2));
+	Eigen::Vector3d C1(secondMult(0), secondMult(1), secondMult(2));
+
+	Eigen::Vector3d D = C1 - C0;
 
 	Eigen::Matrix3d A = data_list.at(0).GetRotation();
 	Eigen::Matrix3d B = data_list.at(1).GetRotation();
@@ -349,4 +356,10 @@ bool SandBox::BoxesIntersect(Eigen::AlignedBox <double, 3>& firstBox, Eigen::Ali
 	R = (C(0, 2) * A_matrix.row(1) * D - C(1, 2) * A_matrix.row(0) * D).norm();
 	if (R > R0 + R1) return false;
 	return true;
+}
+
+void SandBox::SetVelocity(double x, double y)
+{
+	xVelocity = x;
+	yVelocity = y;
 }

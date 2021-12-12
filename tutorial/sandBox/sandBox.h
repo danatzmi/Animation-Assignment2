@@ -20,11 +20,13 @@ public:
 	void MoveTo(double x, double y);
 	bool ObjectsCollide(igl::AABB<Eigen::MatrixXd, 3>* firstTree, igl::AABB<Eigen::MatrixXd, 3>* secondTree);
 	bool BoxesIntersect(Eigen::AlignedBox <double, 3>& firstBox, Eigen::AlignedBox <double, 3>& secondBox);
+	void SetVelocity(double x, double y);
 
 private:
 	// Prepare array-based edge data structures and priority queue
 	std::vector<ObjectData*>* objectsData;
-
+	double xVelocity;
+	double yVelocity;
 	void Animate();
 };
 
